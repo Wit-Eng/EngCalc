@@ -1,22 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 12 10:18:15 2024
-
-@author: pimwi
-"""
-
 import numpy as np
-from matplotlib import pyplot as plt
-from math import pi, sqrt, log
-#import scipy.stats
+import matplotlib.pyplot as plt
+import math
 import streamlit as st
 
 st.title("Engineering Calculator")
-
-# description = ''' This is a demo front end for the Spiral simulator
-
-# '''
-# st.markdown(description)
 
 tab1, tab2 = st.tabs(["cantilever dynamics","cantilever bending"])
 
