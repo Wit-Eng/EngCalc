@@ -8,7 +8,7 @@ Created on Thu Dec 12 10:18:15 2024
 import numpy as np
 from matplotlib import pyplot as plt
 from math import pi, sqrt, log
-import scipy.stats
+#import scipy.stats
 import streamlit as st
 
 st.title("Engineering Calculator")
